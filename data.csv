@@ -10,4 +10,4 @@ Helper Chatbot;A chatbot that knows about a specific topic and answers questions
 Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/AdamStar9/Webcam_Motitor_Detection.git;11.png
 Book Analyzer;A program that analyze the book and returns the most typed words.;https://github.com/AdamStar9/Book_analysis.git;12.png
 Insurance Management System;A desktop PyQt6 GUI app for managing insurance data with an SQL database backend. This was my final project with IT Network.;https://github.com/AdamStar9/Insurance-System-App.git;17.png
-Job Application and Admin env with Django;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://github.com/AdamStar9/Job_Application_Django.git;18.png
+Job Application and Admin env with Flask;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://github.com/AdamStar9/Job_Application_Django.git;18.png
