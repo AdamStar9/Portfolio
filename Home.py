@@ -42,3 +42,6 @@ with col4:
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
 
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5000))
