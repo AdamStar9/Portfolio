@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas
+import os
+
+from pympler.util.bottle import app
 
 st.set_page_config(layout="wide")
 
@@ -38,3 +41,7 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
