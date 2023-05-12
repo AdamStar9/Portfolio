@@ -13,8 +13,10 @@ with col1:
 
 with col2:
     st.title("Adam Starostik")
-    content = """Hi, My name is Adam and I´m new to Python. I have successfully passed two courses in order to learn Python and 
-    I´m ready to start a new path in my life working with Python on the every day basis.
+    content = """Hi, My name is Adam and I´m new to Python. I have successfully 
+    passed two courses in order to learn Python and 
+    I´m ready to start a new path in my life working with 
+    Python on the every day basis.
     
     """
     st.info(content)
