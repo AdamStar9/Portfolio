@@ -21,4 +21,4 @@ jobs:
       - name: Run Python Script
         run:
           pip install requests
-          python send_email.py
+          python Home.py
