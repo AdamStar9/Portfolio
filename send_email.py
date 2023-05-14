@@ -1,7 +1,7 @@
 import smtplib, ssl
 import os
 
-password = os.environ["password"]
+password = os.environ["PASSWORD"]
 
 
 def send_email(message):
