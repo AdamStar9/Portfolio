@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  password: ${{ secrets.PASSWORD }}
+  password: ${{ secrets.password }}
 
 jobs:
   run-python:
